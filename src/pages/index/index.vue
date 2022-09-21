@@ -1,3 +1,10 @@
+<script setup lang="ts">
+  import { ref } from 'vue';
+  import { useCountStore } from '../../store/modules/counter';
+
+  const title = ref('Hello233');
+  const countStore = useCountStore();
+  </script>
 <template>
   <view class="content">
     <image
@@ -8,14 +15,15 @@
       <text class="title">
         {{ title }}
       </text>
+      <text>
+        计数:{{ countStore.count }}
+      </text>
     </view>
+    <button @click="countStore.addCount">
+      增加
+    </button>
   </view>
 </template>
-
-<script setup lang="ts">
-import { ref } from 'vue';
-const title = ref('Hello233');
-</script>
 
 <style>
 .content {
