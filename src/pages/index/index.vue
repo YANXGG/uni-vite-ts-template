@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ref } from 'vue';
-  import { useCountStore } from '../../store/modules/counter';
+  import { useCountStore } from '@/store/modules/counter';
 
   const title = ref('Hello233');
   const countStore = useCountStore();
