@@ -4,5 +4,6 @@
     "dlhtx.uniapp-snippet",
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
+    "adam-bender.commit-message-editor"
   ]
 }
