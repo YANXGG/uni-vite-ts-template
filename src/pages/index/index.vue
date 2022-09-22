@@ -4,15 +4,16 @@
 
   const title = ref('Hello233');
   const countStore = useCountStore();
-  </script>
+</script>
+
 <template>
-  <view class="content">
+  <view class="lq-content">
     <image
-      class="logo"
+      class="lq-content__logo"
       src="/static/logo.png"
     />
-    <view class="text-area">
-      <text class="title">
+    <view class="lq-content__text-area">
+      <text class="lq-content__title">
         {{ title }}
       </text>
       <text>
@@ -25,30 +26,34 @@
   </view>
 </template>
 
-<style>
-.content {
+<style lang="scss">
+@include b(content) {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
 
-.logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin-top: 200rpx;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50rpx;
-}
+  @include e(logo){
+    height: 200rpx;
+    width: 200rpx;
+    margin-top: 200rpx;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50rpx;
+  }
 
-.text-area {
-  display: flex;
-  justify-content: center;
-}
+  @include e(text-area){
+    height: 200rpx;
+    width: 200rpx;
+    margin-top: 200rpx;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50rpx;
+  }
 
-.title {
-  font-size: 36rpx;
-  color: #8f8f94;
+  @include e(title){
+    font-size: 36rpx;
+    color: $text-grey;
+  }
 }
 </style>
