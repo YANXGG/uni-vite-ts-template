@@ -9,6 +9,7 @@ module.exports = defineConfig({
     es2021: true
   },
   extends: [
+    'vue-global-api',
     'eslint:recommended',
     'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended'

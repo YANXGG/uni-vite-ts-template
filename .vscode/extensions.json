@@ -1,9 +1,8 @@
 {
   "recommendations": [
-    "Vue.volar",
+    "misterj.vue-volar-extention-pack",
     "dlhtx.uniapp-snippet",
     "editorconfig.editorconfig",
-    "dbaeumer.vscode-eslint",
     "adam-bender.commit-message-editor",
     "mrmlnc.vscode-scss"
   ]
