@@ -100,5 +100,8 @@ module.exports = defineConfig({
       }
     ],
     'vue/prefer-import-from-vue': 0
+  },
+  globals:{
+    uni: true
   }
 });

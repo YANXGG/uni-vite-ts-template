@@ -1,8 +1,10 @@
 <script setup lang="ts">
   import { useCountStore } from '@/store/modules/counter';
-
   const title = ref('Hello233');
   const countStore = useCountStore();
+  const toHome = () => uni.navigateTo({
+    url: '/pages/home/index'
+  });
 </script>
 
 <template>
@@ -21,6 +23,9 @@
     </view>
     <button @click="countStore.addCount">
       增加
+    </button>
+    <button @click="toHome">
+      跳转
     </button>
   </view>
 </template>

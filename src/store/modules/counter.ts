@@ -1,6 +1,4 @@
 import { defineStore } from 'pinia';
-import {reactive, toRefs} from 'vue';
-
 interface counter{
   count: number;
 }
