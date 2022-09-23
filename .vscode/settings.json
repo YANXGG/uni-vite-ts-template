@@ -5,6 +5,9 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  // eslint格式化匹配文件
-  "eslint.validate": ["javascript", "vue", "typescript"]
+  "eslint.validate": ["javascript", "vue", "typescript"],
+  "files.associations": {
+    "pages.json": "jsonc",
+    "manifest.json": "jsonc"
+  }
 }
