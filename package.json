@@ -1,5 +1,5 @@
 {
-  "name": "uni-preset-vue",
+  "name": "uni-vite-ts-template",
   "version": "0.0.0",
   "scripts": {
     "serve": "pnpm run dev",
@@ -48,8 +48,9 @@
     "only-allow": "^1.1.1",
     "postcss": ">=8.3.11 <9.0.0",
     "prettier": "^2.6.2",
-    "sass": "^1.55.0",
     "typescript": "^4.8.3",
+    "unocss": "^0.45.23",
+    "unocss-preset-weapp": "^0.1.16",
     "unplugin-auto-import": "^0.11.2",
     "vite": "2.9.14",
     "vue-global-api": "^0.4.1"
