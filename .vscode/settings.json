@@ -9,5 +9,8 @@
   "files.associations": {
     "pages.json": "jsonc",
     "manifest.json": "jsonc"
-  }
+  },
+  "path-intellisense.mappings": {
+    "@/": "${workspaceRoot}/src"
+  },
 }

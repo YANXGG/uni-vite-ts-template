@@ -4,6 +4,7 @@
     "dlhtx.uniapp-snippet",
     "editorconfig.editorconfig",
     "adam-bender.commit-message-editor",
-    "mrmlnc.vscode-scss"
+    "mrmlnc.vscode-scss",
+    "christian-kohler.path-intellisense"
   ]
 }
