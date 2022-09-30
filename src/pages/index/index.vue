@@ -9,10 +9,10 @@ const toHome = () =>
 </script>
 
 <template>
-  <view class="w-100">
+  <view class="wh-full">
     <image src="/static/logo.png" />
-    <view class="lq-content__text-area">
-      <text class="lq-content__title">
+    <view class="w-750">
+      <text class="flex-center">
         {{ title }}
       </text>
       <text> 计数:{{ countStore.count }} </text>

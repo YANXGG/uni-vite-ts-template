@@ -17,6 +17,8 @@ export default defineConfig({
   },
   shortcuts: {
     'wh-full': 'w-full h-full',
+    'wh-screen': 'w-screen h-screen',
+    'flex-center': 'flex justify-center items-center',
     'card-2': 'grid grid-cols-2 grid-rows-2 grid-gap1',
     'card-3': 'grid grid-cols-3 grid-rows-3 grid-gap1',
     'bg-gradient': 'bg-gradient-to-lt from-primary to-info'
